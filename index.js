@@ -194,9 +194,7 @@ module.exports = {
     "space-before-function-paren": [1, {"anonymous": "always", "named": "never"}], // require or disallow space before function opening parenthesis (off by default)
     "object-curly-spacing": [2, "always"],		// require or disallow spaces inside objects (off by default)
     "computed-property-spacing": [2, "never"],
-    "array-bracket-spacing": [2, "always", {       // require or disallow spaces inside arrays (off by default)
-        singleValue: false                          // don't require spaces when the array contains a single element
-    }],		
+    "array-bracket-spacing": 1,       // require or disallow spaces inside arrays (off by default)
 
 
     "space-in-parens": [1, "never"], // require or disallow spaces inside parentheses (off by default)
