@@ -182,7 +182,7 @@ module.exports = {
     "no-underscore-dangle": 1, // disallow dangling underscores in identifiers
     "no-extra-parens": 2, // disallow wrapping of non-IIFE statements in parens
     "one-var": [1, "never"], // allow just one var statement per function (off by default)
-    "operator-assignment": [1, "never"], // require assignment operator shorthand where possible or prohibit it entirely (off by default)
+    "operator-assignment": [2, "always"], // require assignment operator shorthand where possible or prohibit it entirely (off by default)
     "padded-blocks": [1, "never"], // enforce padding within blocks (off by default)
     "quote-props": [1, "as-needed"], // require quotes around object literal property names (off by default)
     "quotes": [1, "single"], // specify whether double or single quotes should be used
@@ -194,7 +194,9 @@ module.exports = {
     "space-before-function-paren": [1, {"anonymous": "always", "named": "never"}], // require or disallow space before function opening parenthesis (off by default)
     "object-curly-spacing": [2, "always"],		// require or disallow spaces inside objects (off by default)
     "computed-property-spacing": [2, "never"],
-    "array-bracket-spacing": [2, "always"],		// require or disallow spaces inside arrays (off by default)
+    "array-bracket-spacing": [2, "always", {       // require or disallow spaces inside arrays (off by default)
+        singleValue: false                          // don't require spaces when the array contains a single element
+    }],		
 
 
     "space-in-parens": [1, "never"], // require or disallow spaces inside parentheses (off by default)
