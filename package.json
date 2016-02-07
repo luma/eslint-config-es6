@@ -1,0 +1,25 @@
+{
+  "name": "eslint-es6-config",
+  "version": "1.0.0",
+  "description": "An eslint config that targets es6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luma/eslint-es6-config.git"
+  },
+  "author": "Rolly Fordham <rolly@luma.co.nz> (https://github.com/luma)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luma/eslint-es6-config/issues"
+  },
+  "homepage": "https://github.com/luma/eslint-es6-config#readme",
+  "dependencies": {
+    "eslint": "^1.10.3",
+    "eslint-plugin-require-path-exists": "^1.1.5",
+    "resolve": "^1.1.7",
+    "strip-json-comments": "^2.0.0"
+  }
+}
