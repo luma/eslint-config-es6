@@ -1,5 +1,5 @@
 {
-  "name": "eslint-es6-config",
+  "name": "eslint-config-es6",
   "version": "1.0.0",
   "description": "An eslint config that targets es6",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luma/eslint-es6-config.git"
+    "url": "git+https://github.com/luma/eslint-config-es6.git"
   },
   "author": "Rolly Fordham <rolly@luma.co.nz> (https://github.com/luma)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/luma/eslint-es6-config/issues"
+    "url": "https://github.com/luma/eslint-config-es6/issues"
   },
-  "homepage": "https://github.com/luma/eslint-es6-config#readme",
+  "homepage": "https://github.com/luma/eslint-config-es6#readme",
   "dependencies": {
     "eslint": "^1.10.3",
     "eslint-plugin-require-path-exists": "^1.1.5",
