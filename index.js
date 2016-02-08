@@ -191,7 +191,7 @@ module.exports = {
     "sort-vars": 0, // sort variables within the same declaration block (off by default)
     "space-after-keywords": [1, "always"], // require a space after certain keywords (off by default)
     "space-before-blocks": [1, "always"], // require or disallow space before blocks (off by default)
-    "space-before-function-paren": [1, {"anonymous": "always", "named": "never"}], // require or disallow space before function opening parenthesis (off by default)
+    "space-before-function-paren": 2, // require or disallow space before function opening parenthesis (off by default)
     "object-curly-spacing": [2, "always"],		// require or disallow spaces inside objects (off by default)
     "computed-property-spacing": [2, "never"],
     "array-bracket-spacing": 1,       // require or disallow spaces inside arrays (off by default)
