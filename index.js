@@ -181,7 +181,10 @@ module.exports = {
     "no-trailing-spaces": 1, // disallow trailing whitespace at the end of lines
     "no-underscore-dangle": 1, // disallow dangling underscores in identifiers
     "no-extra-parens": 2, // disallow wrapping of non-IIFE statements in parens
-    "one-var": [1, "never"], // allow just one var statement per function (off by default)
+    "one-var": [2, {
+      "uninitialized": "always", // Exactly one declaration for uninitialized variables per function (var) or block (let or const)
+      "initialized": "never" // Exactly one declarator per initialized variable declaration per function (var) or block (let or const)
+    }],
     "operator-assignment": [2, "always"], // require assignment operator shorthand where possible or prohibit it entirely (off by default)
     "padded-blocks": [1, "never"], // enforce padding within blocks (off by default)
     "quote-props": [1, "as-needed"], // require quotes around object literal property names (off by default)
